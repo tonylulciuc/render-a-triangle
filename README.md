@@ -4,6 +4,7 @@ Use either Visual 2012 or Visual 2013 Express, its free, https://www.microsoft.c
 To be able to use the code you'll need to download and install 
 DirectX (June 2010) SDK, http://www.microsoft.com/en-us/download/details.aspx?id=6812.
 Then you'll need to include the following libraries:
+
 	d3d11.lib
 	
 	d3dx11d.lib
@@ -38,3 +39,5 @@ So go to:
 				C:\..\Microsoft DirectX SDK (June 2010)\lib\(x86 or x64)
 
 Click apply and it should work
+
+NOTE C:\..\ is an abbreviation for the actual path 
