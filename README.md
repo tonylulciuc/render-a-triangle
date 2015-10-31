@@ -5,9 +5,13 @@ To be able to use the code you'll need to download and install
 DirectX (June 2010) SDK, http://www.microsoft.com/en-us/download/details.aspx?id=6812.
 Then you'll need to include the following libraries:
 	d3d11.lib
+	
 	d3dx11d.lib
+	
 	d3dcompiler.lib
+	
 	dxerr.lib
+	
 	dxgi.lib
 
 To add these go to:
