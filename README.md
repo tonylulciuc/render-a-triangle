@@ -40,4 +40,4 @@ So go to:
 
 Click apply and it should work
 
-NOTE C:\..\ is an abbreviation for the actual path 
+NOTE C: \ ..\ is an abbreviation for the actual path 
