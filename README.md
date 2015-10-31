@@ -16,17 +16,25 @@ Then you'll need to include the following libraries:
 
 To add these go to:
 	 PROJECT -> Properties -> Linker -> Input
+	 
 		Then add to Additional Dependencies
 
 Next you must include the paths for the Compiler to search in.
 So go to:
 	PROJECT -> Properties -> VC++ Directories
+	
 		Then in Executable Directories add path:
+		
 				C:\..\Microsoft DirectX SDK (June 2010)\Utilities\bin\(x86 or x64)
+				
 		Then in Include Directories add path:
+		
 				C:\..\Microsoft DirectX SDK (June 2010)\Include
+				
 				$(WindowSDK_IncludePath)
+				
 		Then in Library Directories add path:
+		
 				C:\..\Microsoft DirectX SDK (June 2010)\lib\(x86 or x64)
 
 Click apply and it should work
