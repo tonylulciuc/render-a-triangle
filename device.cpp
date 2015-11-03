@@ -29,9 +29,6 @@ Device::Device(HINSTANCE _hInstance, LPCTSTR _lpszDeviceName,
 
 Device::~Device(void)
 {
-	if (m_hMain)
-		CloseHandle(m_hMain);
-
 	m_hMain = 0;
 }
 
